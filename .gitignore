@@ -1,0 +1,59 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Directorios de IntelliJ / Eclipse / VS Code
+.idea/
+.vscode/
+target/
+bin/
+
+# Archivos de dependencias
+*.log
+*.class
+*.jar
+*.war
+*.iml
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración de Maven y Gradle
+/.mvn/
+/.gradle/
+
+# Configuración de OpenAI (o cualquier credencial sensible)
+application.properties
+application.yml
+.env
